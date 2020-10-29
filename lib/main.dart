@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 void main() {
   // 最初に表示するWidget
-  runApp(MyTodoApp());
+  runApp(TodoApp());
 }
 
-class MyTodoApp extends StatelessWidget {
+class TodoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -143,4 +143,4 @@ class _TodoAddPageState extends State<TodoAddPage> {
       ),
     );
   }
-}d
+}
